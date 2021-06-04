@@ -13,5 +13,19 @@ rectSide = width/gridNum
 ```
 
 ```js
+ var cols = 10
+ var rows = 10
+ for(var i = 0; i< cols; i++) {
+    for(var j = 0; j< rows; j++) {
+      var x = i*30
+      var y = j*30
+      fill(colors[i][j])
+      stroke(0)
+      rect(x, y, 30, 30)
+   }
+}
+```
+
+```js
 
 ```
